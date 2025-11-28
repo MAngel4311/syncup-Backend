@@ -12,8 +12,11 @@ Materia: Estructura de Datos
 El backend cumple con la función de un sistema escalable y sin estado:
 
 **Algoritmos de Recomendación:** Implementación del **Algoritmo de Dijkstra** (con PriorityQueue) en el **Grafo de Similitud** para generar listas de reproducción por afinidad musical ("Radio Automática").
+
 **Búsqueda de Alto Rendimiento:** Desarrollo de un **Árbol Trie** (Prefix Tree) que permite el **autocompletado instantáneo** de canciones con una complejidad O(L), superando la lentitud de las búsquedas SQL tradicionales.
+
 **Seguridad y Escalabilidad:** Uso de **JAVA 21** con **Spring Boot 3.5.6** y seguridad basada en **Tokens JWT** (sin sesiones en el servidor), lo que permite atender a miles de usuarios concurrentes.
+
 **Análisis de Datos:** Manejo de **Consultas JPQL optimizadas** (GROUP BY) en el *MetricsService* para generar reportes y el **Dashboard Administrativo** sin saturar la memoria del servidor.
 
 ## 🛠️ Tecnologías Utilizadas
